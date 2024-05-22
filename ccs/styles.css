@@ -1,0 +1,387 @@
+/*
+#26401A
+#5D732F
+#8FA63C
+#D5D96C
+#D9D382
+*/
+@import url("https://fonts.googleapis.com/css2?family=Jersey+25&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* mobile */
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .logos {
+    width: 100%;
+  }
+  .logos img {
+    width: 15rem;
+  }
+  .title {
+    font-size: 1.8rem;
+  }
+  .flexcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .act1 h1 {
+    font-size: 1.5rem;
+  }
+  .act1 p {
+    font-size: 1.3rem;
+  }
+  .act2 h2 {
+    font-size: 1.5rem;
+  }
+  .act2 li {
+    font-size: 1.3rem;
+  }
+  .uno {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 6rem;
+    width: 27rem;
+  }
+  .dos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 3rem;
+    width: 27rem;
+  }
+  .tres {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 27rem;
+  }
+  .copy {
+    width: 25%;
+  }
+  .intendencia {
+    width: 50%;
+    margin-left: 4rem;
+  }
+  .iconos {
+    width: 50%;
+  }
+}
+/* tablet */
+@media screen and (min-width: 769px) and (max-width: 1023px) {
+  .logos {
+    width: 100%;
+  }
+  .logos img {
+    width: 15rem;
+  }
+  .title {
+    font-size: 1.8rem;
+  }
+  .flexcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .act1 h1 {
+    font-size: 1.5rem;
+  }
+  .act1 p {
+    font-size: 1.3rem;
+  }
+  .act2 h2 {
+    font-size: 1.5rem;
+  }
+  .act2 li {
+    font-size: 1.3rem;
+  }
+  .uno {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 6rem;
+  }
+  .dos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 3rem;
+  }
+  .tres {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .copy {
+    width: 25%;
+  }
+  .intendencia {
+    width: 50%;
+    margin-left: 4rem;
+  }
+  .iconos {
+    width: 50%;
+  }
+}
+/* PC */
+@media screen and (min-width: 1024px) {
+  .logos {
+    width: 100%;
+  }
+  .logos img {
+    width: 30rem;
+  }
+  .title {
+    font-size: 1.8rem;
+  }
+  .flexcontainer {
+    display: flex;
+  }
+}
+html { /*etiqueta raiz */
+  font-size: 62.5%;
+}
+html header {
+  background-color: #26401A;
+}
+html header ul {
+  list-style-type: none;
+  font-size: 1.5rem;
+}
+html header HEADER nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+html header .arriba {
+  display: flex;
+  width: 100%;
+  background-color: #8FA63C;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: auto;
+}
+html header .arriba li a:hover {
+  color: antiquewhite;
+}
+html header .title {
+  color: beige;
+  font-size: 3rem;
+}
+html main {
+  margin-bottom: 1.5rem;
+  padding-top: 1rem;
+}
+html main .flexcontainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: normal;
+}
+html main .uno {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 40rem;
+  margin-left: 3rem;
+  margin-top: 1rem;
+}
+html main .dos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 40rem;
+  margin-top: 1rem;
+}
+html main .tres {
+  display: flex;
+  justify-content: end;
+  flex-wrap: wrap;
+  width: 40rem;
+  margin-right: 3rem;
+  margin-top: 1rem;
+}
+html main p {
+  font-size: 1.5rem;
+  text-align: justify;
+  display: block;
+  width: 40rem;
+}
+html main .floracontainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+html main .fauna {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: start;
+  width: 100%;
+}
+html main .textofauna {
+  padding-left: 16%;
+  padding-top: 2rem;
+}
+html main .fauna div p {
+  width: 80%;
+}
+html main .foto1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding-left: 15%;
+  padding-top: 3rem;
+}
+html main .foto1 img {
+  width: 25rem;
+  height: 25rem;
+  padding: 1.5rem;
+}
+html main .textoflora {
+  padding-left: 16%;
+  padding-top: 2rem;
+}
+html main .flora div p {
+  width: 80%;
+}
+html main .foto2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding-left: 15%;
+  padding-top: 0.3rem;
+}
+html main .foto2 img {
+  width: 25rem;
+  height: 25rem;
+  padding: 1rem;
+}
+html main .ponerse {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+html main .ponerse h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 3.5rem;
+}
+html main .ponerse p {
+  display: flex;
+  justify-content: center;
+  width: 40%;
+  align-items: center;
+}
+html main .formu h2 {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+}
+html main .formu form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+html main .act1 {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+html main input {
+  width: 30rem;
+}
+html main textarea {
+  width: 30rem;
+}
+html main .act1 h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 3.5rem;
+}
+html main .act1 div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+html main .act1 div p {
+  width: 70rem;
+}
+html main .act2 {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+html main .act2 h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 3.5rem;
+  margin-right: 8%;
+}
+html main .act2 div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+html main .act2 div ul {
+  width: 70rem;
+}
+html main img {
+  width: 40rem;
+  height: 30rem;
+  display: inline;
+}
+html footer {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #8FA63C;
+  align-items: center;
+  height: 15rem;
+}
+html footer .copy {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 40rem;
+  margin-left: 3rem;
+  margin-top: 1rem;
+}
+html footer .intendencia {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 40rem;
+  margin-top: 1rem;
+}
+html footer .iconos {
+  display: flex;
+  justify-content: end;
+  flex-wrap: wrap;
+  width: 40rem;
+  margin-right: 3rem;
+  margin-top: 1rem;
+}
